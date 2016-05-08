@@ -1,0 +1,5 @@
+bunsen-meta-all (8.0-1) bunsen-hydrogen; urgency=low
+
+  * Initial release
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 08 May 2016 15:02:53 +0900
