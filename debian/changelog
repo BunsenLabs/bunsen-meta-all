@@ -1,3 +1,9 @@
+bunsen-meta-all (8.0-3) bunsen-hydrogen; urgency=medium
+
+  * debian/control: Adjust recommends to requirements of Deuterium point release.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 09 Feb 2017 12:29:13 +0900
+
 bunsen-meta-all (8.0-2) bunsen-hydrogen; urgency=high
 
   * debian/control: Add bunsen-keyring to recommends.
