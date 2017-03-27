@@ -1,3 +1,9 @@
+bunsen-meta-all (8.0-4) bunsen-hydrogen; urgency=medium
+
+  * debian/control: Add libreoffice-gtk and hardinfo to recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 27 Mar 2017 16:12:41 +0900
+
 bunsen-meta-all (8.0-3) bunsen-hydrogen; urgency=medium
 
   * debian/control: Adjust recommends to requirements of Deuterium point release.
