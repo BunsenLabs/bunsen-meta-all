@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0-1) helium; urgency=medium
+
+  * debian/control: Adjust recommends for helium.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 11 May 2017 17:17:17 +0900
+
 bunsen-meta-all (8.0-4) bunsen-hydrogen; urgency=medium
 
   * debian/control: Add libreoffice-gtk and hardinfo to recommends.
