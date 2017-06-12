@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0-2) helium; urgency=high
+
+  * Add xserver-xorg-video-intel to recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 12 Jun 2017 14:39:17 +0900
+
 bunsen-meta-all (9.0-1) helium; urgency=medium
 
   * debian/control: Adjust recommends for helium.
