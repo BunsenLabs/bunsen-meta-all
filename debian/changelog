@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0-3) helium; urgency=medium
+
+  * Add xserver-xorg-input-synaptics to recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 21 Jun 2017 16:24:20 +0900
+
 bunsen-meta-all (9.0-2) helium; urgency=high
 
   * Add xserver-xorg-video-intel to recommends.
