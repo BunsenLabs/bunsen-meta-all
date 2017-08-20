@@ -1,3 +1,9 @@
+bunsen-meta-all (8.0-5) bunsen-hydrogen; urgency=medium
+
+  * debian/control: Remove gstreamer0.10 plugins from recommends.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 20 Aug 2017 13:37:03 +0900
+
 bunsen-meta-all (8.0-4) bunsen-hydrogen; urgency=medium
 
   * debian/control: Add libreoffice-gtk and hardinfo to recommends.
