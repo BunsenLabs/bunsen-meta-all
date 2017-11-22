@@ -1,9 +1,5 @@
 bunsen-meta-all
 ===============
 
-This metapackage recommends all the packages installed in a full-sized 
+This metapackage depends on all the packages installed in a full-sized
 BunsenLabs system.
-
-Recommends are used rather than depends
-so that individual packages can be uninstalled without forcing
-the removal of this metapackage, and making the other packages orphans.
