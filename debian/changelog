@@ -1,3 +1,11 @@
+bunsen-meta-all (9.0-1) helium; urgency=medium
+
+  * Change Recommends to Depends
+     ( APT::Never-MarkAuto-Sections:: is honoured in apt 1.0.10)
+  * Update package list.
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 22 Nov 2017 15:57:45 +0900
+
 bunsen-meta-all (8.0-5) bunsen-hydrogen; urgency=medium
 
   * debian/control: Remove gstreamer0.10 plugins from recommends.
