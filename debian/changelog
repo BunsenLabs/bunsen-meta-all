@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0.1-2) helium; urgency=medium
+
+  * Replace volumeicon-alsa with pnmixer.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 24 Nov 2017 17:33:46 +0900
+
 bunsen-meta-all (9.0.1-1) helium; urgency=medium
 
   * Change Recommends to Depends
