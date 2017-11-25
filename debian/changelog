@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0.1-3) helium; urgency=medium
+
+  * Add bunsen-paper-icon-theme.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 25 Nov 2017 12:42:58 +0900
+
 bunsen-meta-all (9.0.1-2) helium; urgency=medium
 
   * Replace volumeicon-alsa with pnmixer.
