@@ -1,3 +1,9 @@
+bunsen-meta-all (9.0.1-7) helium; urgency=medium
+
+  * Write to /etc/bunsen/bunsen_install on install or remove.
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 16 Apr 2018 16:41:53 +0900
+
 bunsen-meta-all (9.0.1-6) helium; urgency=medium
 
   * Add fonts-noto-cjk, fonts-liberation.
