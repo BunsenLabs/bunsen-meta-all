@@ -2,4 +2,4 @@ bunsen-meta-all
 ===============
 
 This metapackage depends on all the packages installed in a full-sized
-BunsenLabs system.
+BunsenLabs system. It can be installed without recommends.
