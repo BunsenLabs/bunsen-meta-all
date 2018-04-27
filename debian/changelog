@@ -1,6 +1,7 @@
-bunsen-meta-all (9.0.1-8) helium; urgency=medium
+bunsen-meta-all (9.0.2-1) helium; urgency=medium
 
-  * Add less.
+  * Add less to depends.
+  * Update README.
 
  -- John Crawley <john@bunsenlabs.org>  Tue, 24 Apr 2018 14:38:49 +0900
 
