@@ -1,6 +1,12 @@
 #!/bin/sh
 # postinst script for bunsen-meta-all
 
+# Summary of ways this script is called:
+#    postinst configure most-recently-configured-version(null if not upgrade)
+#    old-postinst abort-upgrade new-version
+#    conflictor's-postinst abort-remove in-favour package new-version
+#    deconfigured's-postinst abort-deconfigure in-favour failed-install-package version removing conflicting-package version
+
 set -e
 
 BL_INST=/etc/bunsen/bunsen_install
@@ -15,8 +21,9 @@ Install date: $(date --utc +%FT%T)"
 
 case $1 in
 configure)
-    if [ -z "$2" ] && [ -f "$BL_INST" ]
+    if [ -f "$BL_INST" ]
     then
+        grep -q 'Install method:' "$BL_INST" || echo 'Install method: metapackage' >> "$BL_INST"
         echo "$OVERLAY_STRING" >> "$BL_INST"
     else
         echo "$FRESH_STRING" > "$BL_INST"

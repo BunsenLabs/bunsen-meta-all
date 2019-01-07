@@ -2,11 +2,11 @@ Source: bunsen-meta-all
 Section: metapackages
 Priority: optional
 Maintainer: John Crawley <john@bunsenlabs.org>
-Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
 Homepage: https://github.com/BunsenLabs/bunsen-meta-all
 Vcs-Git: https://github.com/BunsenLabs/bunsen-meta-all.git
-Vcs-Browser: https://github.com/BunsenLabs/bunsen-meta-all.git
+Vcs-Browser: https://github.com/BunsenLabs/bunsen-meta-all
 
 Package: bunsen-meta-all
 Architecture: all
@@ -188,8 +188,6 @@ Depends: ${misc:Depends},
  bunsen-docs,
  bunsen-exit,
  bunsen-images,
- bunsen-keyring,
- bunsen-os-release,
  bunsen-paper-icon-theme,
  bunsen-pipemenus,
  bunsen-themes,
