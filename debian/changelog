@@ -1,3 +1,16 @@
+bunsen-meta-all (10.0-1~test1) lithium; urgency=medium
+
+  * Migrate to Lithium repository.
+  * Upgrade standards version to 4.3.0, debhelper compat to 10.
+  * Update copyright year.
+  * Temporarily remove some packages:
+     bunsen-keyring
+     bunsen-os-release
+     gigolo*
+     firmware-b43* 
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 07 Jan 2019 18:43:06 +0900
+
 bunsen-meta-all (9.0.1-8) helium; urgency=medium
 
   * Add less.
