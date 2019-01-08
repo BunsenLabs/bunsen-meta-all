@@ -1,3 +1,9 @@
+bunsen-meta-all (10.0.1-1~held_pkgs1) lithium; urgency=medium
+
+  * Remove e2fsprogs (essential package already present).
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 08 Jan 2019 10:37:14 +0900
+
 bunsen-meta-all (10.0-1~test1) lithium; urgency=medium
 
   * Migrate to Lithium repository.
