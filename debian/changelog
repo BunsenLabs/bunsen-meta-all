@@ -1,4 +1,4 @@
-bunsen-meta-all (10.0.1-1~held_pkgs1) lithium; urgency=medium
+bunsen-meta-all (10.0.1-1~heldpkgs1) lithium; urgency=medium
 
   * Remove e2fsprogs (essential package already present).
 
