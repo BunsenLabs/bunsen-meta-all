@@ -1,3 +1,12 @@
+bunsen-meta-all (10.0.1-3) lithium; urgency=medium
+
+  * Restore held packages.
+  * Replace paper icons with papirus.
+  * Replace gnumeric with libreoffice-calc.
+  * Add lightdm gtk settings GUI app.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 31 May 2019 17:10:16 +0900
+
 bunsen-meta-all (10.0.1-2~heldpkgs2) lithium; urgency=medium
 
   * Restore bunsen-keyring.
