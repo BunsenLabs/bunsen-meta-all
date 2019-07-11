@@ -1,3 +1,9 @@
+bunsen-meta-all (10.0.1-4) lithium; urgency=medium
+
+  * Add jgmenu, xbindkeys and associated packages.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 11 Jul 2019 16:11:17 +0900
+
 bunsen-meta-all (10.0.1-3) lithium; urgency=medium
 
   * Restore held packages.
