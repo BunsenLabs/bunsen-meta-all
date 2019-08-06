@@ -1,3 +1,9 @@
+bunsen-meta-all (10.0.1-5) lithium; urgency=medium
+
+  * Add inxi, lshw and lxterminal. Remove terminator.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 06 Aug 2019 17:16:11 +0900
+
 bunsen-meta-all (10.0.1-4) lithium; urgency=medium
 
   * Add jgmenu, xbindkeys and associated packages.
