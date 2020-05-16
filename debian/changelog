@@ -1,3 +1,10 @@
+bunsen-meta-all (10.0.1-7) lithium; urgency=medium
+
+  * Replace mirage with ristretto.
+  * Add at, gnome-themes-standard and thunar-gtkhash.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 16 May 2020 14:12:25 +0900
+
 bunsen-meta-all (10.0.1-6) lithium; urgency=medium
 
   * Add gddrescue. Remove xbindkeys-config.
