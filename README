@@ -3,3 +3,12 @@ bunsen-meta-all
 
 This metapackage depends on all the packages installed in a full-sized
 BunsenLabs system. It can be installed without recommends.
+
+
+bunsen-meta-lite
+================
+
+This metapackage depends on a reduced selection of the packages needed for a 
+BunsenLabs system. Some packages have been replaced with lighter alternatives.
+It can be installed without recommends.
+
