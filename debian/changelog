@@ -1,3 +1,9 @@
+bunsen-meta-all (10.1-2) lithium; urgency=medium
+
+  * Add xsettingsd to full and lite metapackages. 
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 13 Jan 2021 17:48:09 +0900
+
 bunsen-meta-all (10.1-1) lithium; urgency=medium
 
   * Add bunsen-meta-lite with slightly fewer and lighter packages.
