@@ -1,3 +1,20 @@
+bunsen-meta-all (11.0-1.1) beryllium; urgency=medium
+
+  * Apply initial changes to package lists for Debian Bullseye.
+    + dbus-x11 > dbus-user-session
+      clipit > xfce4-clipman
+      libreoffice-gtk2 > libreoffice-gtk3
+      python > python3
+      python-xdg > python3-xdg
+    + remove:
+       libexo-1-0
+       python-keybinder
+       python-notify
+       bunsen-configs-pulse (no longer needed)
+       bunsen-os-release (temporarily)
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 11 Feb 2021 17:48:09 +0900
+
 bunsen-meta-all (11.0-1) beryllium; urgency=medium
 
   * Migrate for Debian Bullseye.
