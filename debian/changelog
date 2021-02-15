@@ -1,3 +1,14 @@
+bunsen-meta-all (11.0-2) beryllium; urgency=medium
+
+  * Further package changes:
+    + enchant > enchant-2
+      fuse > fuse3
+    + remove:
+       ntp
+       vdpau-va-driver
+
+ -- John Crawley <john@bunsenlabs.org>  Mon, 15 Feb 2021 19:34:50 +0900
+
 bunsen-meta-all (11.0-1.1) beryllium; urgency=medium
 
   * Apply initial changes to package lists for Debian Bullseye.
