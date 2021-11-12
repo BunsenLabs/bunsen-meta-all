@@ -1,3 +1,13 @@
+bunsen-meta-all (11.0-3) beryllium; urgency=medium
+
+  * compton > picom
+  * Add some Recommends of BL packages:
+     colordiff
+     libglib2.0-bin
+     sensible-utils   
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 12 Nov 2021 13:33:20 +0900
+
 bunsen-meta-all (11.0-2) beryllium; urgency=medium
 
   * Further package changes:
