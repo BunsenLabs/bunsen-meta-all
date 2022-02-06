@@ -1,3 +1,10 @@
+bunsen-meta-all (11.0-4) beryllium; urgency=medium
+
+  * bunsen-meta-all: add dmidecode, alsa-ucm-conf, firmware-sof-signed.
+  * bunsen-meta-lite: add dmidecode. 
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 06 Feb 2022 17:23:45 +0900
+
 bunsen-meta-all (11.0-3) beryllium; urgency=medium
 
   * compton > picom
