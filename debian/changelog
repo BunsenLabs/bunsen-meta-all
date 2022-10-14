@@ -1,3 +1,13 @@
+bunsen-meta-all (11.0-5) beryllium; urgency=medium
+
+  * bunsen-meta-all: add mdadm, speedtest-cli, exfatprogs, mtools, lz4,
+     qt5-gtk-platformtheme, bunsen-images-base, bunsen-os-release.
+    bunsen-meta-lite: add speedtest-cli, exfatprogs, mtools, alsa-ucm-conf,
+     enchant2, qt5-gtk-platformtheme, bunsen-images-base, bunsen-os-release,
+     remove bunsen-images.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 14 Oct 2022 15:48:21 +0900
+
 bunsen-meta-all (11.0-4) beryllium; urgency=medium
 
   * bunsen-meta-all: add dmidecode, alsa-ucm-conf, firmware-sof-signed.
