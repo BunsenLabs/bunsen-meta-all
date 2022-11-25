@@ -1,3 +1,10 @@
+bunsen-meta-all (11.0-6) beryllium; urgency=medium
+
+  * bunsen-meta-all, bunsen-meta-lite: add systemd-timesyncd;
+     some Bullseye installations might be missing this. 
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 25 Nov 2022 09:03:35 +0900
+
 bunsen-meta-all (11.0-5) beryllium; urgency=medium
 
   * bunsen-meta-all: add mdadm, speedtest-cli, exfatprogs, mtools, lz4,
