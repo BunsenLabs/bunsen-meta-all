@@ -1,4 +1,4 @@
-Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: bunsen-meta-all
 Source: https://github.com/BunsenLabs/bunsen-meta-all
 
@@ -7,7 +7,7 @@ Copyright: 2016-2020 John Crawley <john@bunsenlabs.org>
 License: GPL-3.0+
 
 Files: debian/*
-Copyright: 2016-2021 John Crawley <john@bunsenlabs.org>
+Copyright: 2016-2023 John Crawley <john@bunsenlabs.org>
 License: GPL-3.0+
 
 License: GPL-3.0+
