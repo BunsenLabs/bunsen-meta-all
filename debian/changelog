@@ -1,7 +1,19 @@
+bunsen-meta-all (12.0-1) boron; urgency=medium
+
+  * Migrate for Debian Bookworm
+    - debian/control: Bump Standards-Version to 4.6.1.0 - no changes required.
+    - debian/control: Declare debhelper compatibility 13.
+    - debian/control: Add Rules-Requires-Root: no
+    - debian/copyright: update year, use https Format url.
+  * b-m-all & b-m-lite: Add Depends: cryptsetup-initramfs, librsvg2-common,
+     pkexec, polkitd and polkitd-pkla, remove policykit-1.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 26 Jan 2023 15:20:04 +0900
+
 bunsen-meta-all (11.0-6) beryllium; urgency=medium
 
   * bunsen-meta-all, bunsen-meta-lite: add systemd-timesyncd;
-     some Bullseye installations might be missing this. 
+     some Bullseye installations might be missing this.
 
  -- John Crawley <john@bunsenlabs.org>  Fri, 25 Nov 2022 09:03:35 +0900
 
@@ -18,7 +30,7 @@ bunsen-meta-all (11.0-5) beryllium; urgency=medium
 bunsen-meta-all (11.0-4) beryllium; urgency=medium
 
   * bunsen-meta-all: add dmidecode, alsa-ucm-conf, firmware-sof-signed.
-  * bunsen-meta-lite: add dmidecode. 
+  * bunsen-meta-lite: add dmidecode.
 
  -- John Crawley <john@bunsenlabs.org>  Sun, 06 Feb 2022 17:23:45 +0900
 
@@ -28,7 +40,7 @@ bunsen-meta-all (11.0-3) beryllium; urgency=medium
   * Add some Recommends of BL packages:
      colordiff
      libglib2.0-bin
-     sensible-utils   
+     sensible-utils
 
  -- John Crawley <john@bunsenlabs.org>  Fri, 12 Nov 2021 13:33:20 +0900
 
@@ -72,7 +84,7 @@ bunsen-meta-all (11.0-1) beryllium; urgency=medium
 
 bunsen-meta-all (10.1-2) lithium; urgency=medium
 
-  * Add xsettingsd to full and lite metapackages. 
+  * Add xsettingsd to full and lite metapackages.
 
  -- John Crawley <john@bunsenlabs.org>  Wed, 13 Jan 2021 17:48:09 +0900
 
@@ -143,7 +155,7 @@ bunsen-meta-all (10.0-1~test1) lithium; urgency=medium
      bunsen-keyring
      bunsen-os-release
      gigolo*
-     firmware-b43* 
+     firmware-b43*
 
  -- John Crawley <john@bunsenlabs.org>  Mon, 07 Jan 2019 18:43:06 +0900
 
