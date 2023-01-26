@@ -9,13 +9,14 @@
 
 set -e
 
-BL_INST=/etc/bunsen/bunsen_install
+BL_CONFDIR=/etc/bunsen
+BL_INST="${BL_CONFDIR}/bunsen_install"
 PKG_VER="$(dpkg-query --show --showformat='${Version}' bunsen-meta-all)"
 
 # for case where BL has already been installed eg from a CD iso:
 OVERLAY_STRING="Added bunsen-meta-all at $(date --utc +%FT%T), version $PKG_VER"
 # for case where there is no previous BL install:
-FRESH_STRING="Install method: metapackage
+FRESH_STRING="Install method: metapackage bunsen-meta-all
 Version: $PKG_VER
 Install date: $(date --utc +%FT%T)"
 
@@ -26,6 +27,7 @@ configure)
         grep -q 'Install method:' "$BL_INST" || echo 'Install method: metapackage' >> "$BL_INST"
         echo "$OVERLAY_STRING" >> "$BL_INST"
     else
+        mkdir -p "$BL_CONFDIR"
         echo "$FRESH_STRING" > "$BL_INST"
     fi
     ;;

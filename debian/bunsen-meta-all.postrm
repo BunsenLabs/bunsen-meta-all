@@ -3,7 +3,8 @@
 
 set -e
 
-BL_INST=/etc/bunsen/bunsen_install
+BL_CONFDIR=/etc/bunsen
+BL_INST="${BL_CONFDIR}/bunsen_install"
 
 REMOVE_STRING="Removed bunsen-meta-all at $(date --utc +%FT%T)"
 
