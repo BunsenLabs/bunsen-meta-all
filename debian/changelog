@@ -1,3 +1,10 @@
+bunsen-meta-all (12.0-2) boron; urgency=medium
+
+  * Remove dependencies on obsolete packages crda, hddtemp.
+  * Replace gnome-themes-standard with gnome-themes-extra.
+
+ -- John Crawley <john@bunsenlabs.org>  Thu, 26 Jan 2023 16:48:49 +0900
+
 bunsen-meta-all (12.0-1) boron; urgency=medium
 
   * Migrate for Debian Bookworm
