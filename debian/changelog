@@ -1,3 +1,9 @@
+bunsen-meta-all (12.0-7) boron; urgency=medium
+
+  * Meta-all: add material-solarized-suruplusplus-icon-theme (used in menu).
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 01 Dec 2023 15:50:36 +0900
+
 bunsen-meta-all (12.0-6) boron; urgency=medium
 
   * Meta-lite: replace Paper icons with Numix Circle,
