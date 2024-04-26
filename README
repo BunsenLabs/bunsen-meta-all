@@ -12,3 +12,13 @@ This metapackage depends on a reduced selection of the packages needed for a
 BunsenLabs system. Some packages have been replaced with lighter alternatives.
 It can be installed without recommends.
 
+
+bunsen-meta-base
+================
+
+This metapackage depends on the minimum selection of packages needed for a 
+BunsenLabs base system. Some packages have been replaced with lighter alternatives.
+No firmware packages are included, presuming that installation will be on an
+already working Debian command-line base system. Some users might need to install
+other packages to get a normally working X session.
+It can be installed without recommends.
