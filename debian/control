@@ -472,5 +472,5 @@ Depends: ${misc:Depends},
  bunsen-exit,
  bunsen-images-base,
  bunsen-numix-icon-theme,
- bunsen-themes,
+ bunsen-themes-base,
  bunsen-thunar
