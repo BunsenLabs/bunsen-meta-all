@@ -1,4 +1,4 @@
-bunsen-meta-all (12.1-1~test1) boron; urgency=medium
+bunsen-meta-all (12.1-1) boron; urgency=medium
 
   * Add bunsen-meta-base with minimal package list.
 
