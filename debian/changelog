@@ -1,3 +1,9 @@
+bunsen-meta-all (12.1-2) boron; urgency=medium
+
+  * bunsen-meta-base: replace bunsen-themes with bunsen-themes-base.
+
+ -- John Crawley <john@bunsenlabs.org>  Sat, 27 Apr 2024 15:57:25 +0900
+
 bunsen-meta-all (12.1-1) boron; urgency=medium
 
   * Add bunsen-meta-base with minimal package list.
