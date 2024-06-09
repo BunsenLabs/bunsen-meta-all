@@ -10,7 +10,7 @@ bunsen-meta-all (13.0-1) carbon; urgency=medium
      libgtk-3-0 > libgtk-3-0t64
      mlocate > plocate
   * Temporarily remove buggy package:
-     xserver-xorg-video-qxl     
+     xserver-xorg-video-qxl
 
  -- John Crawley <john@bunsenlabs.org>  Sun, 09 Jun 2024 17:12:02 +0900
 
