@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-4) carbon; urgency=medium
+
+  * bunsen-meta-all: restore geany instead of gedit.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 13 Sep 2024 14:50:04 +0900
+
 bunsen-meta-all (13.0-3) carbon; urgency=medium
 
   * bunsen-meta-all: temporarily replace geany with gedit (#1061346 #1061406)
