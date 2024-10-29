@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-5) carbon; urgency=medium
+
+  * bunsen-meta-all, bunsen-meta-lite: replace pulseaudio with pipewire.
+
+ -- John Crawley <john@bunsenlabs.org>  Tue, 29 Oct 2024 14:58:36 +0900
+
 bunsen-meta-all (13.0-4) carbon; urgency=medium
 
   * bunsen-meta-all: restore geany instead of gedit.
