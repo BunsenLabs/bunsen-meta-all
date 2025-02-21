@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-7) carbon; urgency=medium
+
+  * Replace tint2 with xfce4-panel. 
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 21 Feb 2025 14:27:40 +0900
+
 bunsen-meta-all (13.0-6) carbon; urgency=medium
 
   * Replace policykit-1-gnome with mate-polkit.
