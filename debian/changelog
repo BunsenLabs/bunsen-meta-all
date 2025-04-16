@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-8) carbon; urgency=medium
+
+  * bunsen-meta-all: remove obsolete apt-xapian-index (see bug #1100760).
+
+ -- John Crawley <john@bunsenlabs.org>  Wed, 16 Apr 2025 13:37:39 +0900
+
 bunsen-meta-all (13.0-7) carbon; urgency=medium
 
   * Replace tint2 with xfce4-panel.
