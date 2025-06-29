@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-10) carbon; urgency=medium
+
+  * Replace nitrogen with xwwall.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 29 Jun 2025 17:27:31 +0900
+
 bunsen-meta-all (13.0-9) carbon; urgency=medium
 
   * Replace Numix icons with labbe icons.
