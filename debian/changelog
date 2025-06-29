@@ -1,3 +1,10 @@
+bunsen-meta-all (13.0-9) carbon; urgency=medium
+
+  * Replace Numix icons with labbe icons.
+  * Replace bunsen-themes with bunsen-yaru-gtk.
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 29 Jun 2025 17:01:21 +0900
+
 bunsen-meta-all (13.0-8) carbon; urgency=medium
 
   * bunsen-meta-all: remove obsolete apt-xapian-index (see bug #1100760).
