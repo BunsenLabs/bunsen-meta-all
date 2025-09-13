@@ -1,3 +1,10 @@
+bunsen-meta-all (13.0-11) carbon; urgency=medium
+
+  * Remove obsolete qt5-style-plugins.
+    Ad ssh-askpass-gnome.
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 11 Jul 2025 15:41:30 +0900
+
 bunsen-meta-all (13.0-10) carbon; urgency=medium
 
   * Replace nitrogen with xwwall.
