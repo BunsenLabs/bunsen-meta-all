@@ -1,3 +1,10 @@
+bunsen-meta-all (13.0-14) carbon; urgency=medium
+
+  * Replace lxappearance > nwg-look, xarchiver > file-roller
+  * add xdg-desktop-portal-gtk
+
+ -- John Crawley <john@bunsenlabs.org>  Fri, 26 Dec 2025 16:45:33 +0900
+
 bunsen-meta-all (13.0-12) carbon; urgency=medium
 
   * Remove light-locker, pnmixer and obsolete gstreamer1.0-pulseaudio
