@@ -1,3 +1,9 @@
+bunsen-meta-all (13.0-15) carbon; urgency=medium
+
+  * bunsen-meta-all, bunsen-meta-lite: add xfce4-power-manager-plugins
+
+ -- John Crawley <john@bunsenlabs.org>  Sun, 25 Jan 2026 18:30:08 +0900
+
 bunsen-meta-all (13.0-14) carbon; urgency=medium
 
   * Replace lxappearance > nwg-look, xarchiver > file-roller
